@@ -132,7 +132,7 @@ To install Git, you need to have the following libraries that Git depends on: cu
 	  openssl-devel zlib-devel
 
 	$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
-	  libz-dev
+	  libz-dev libssl-dev
 	
 When you have all the necessary dependencies, you can go ahead and grab the latest snapshot from the Git web site:
 
@@ -140,8 +140,8 @@ When you have all the necessary dependencies, you can go ahead and grab the late
 	
 Then, compile and install:
 
-	$ tar -zxf git-1.6.0.5.tar.gz
-	$ cd git-1.6.0.5
+	$ tar -zxf git-1.7.2.2.tar.gz
+	$ cd git-1.7.2.2
 	$ make prefix=/usr/local all
 	$ sudo make prefix=/usr/local install
 
